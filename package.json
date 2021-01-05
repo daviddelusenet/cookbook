@@ -4,6 +4,11 @@
   "description": "Personal cookbook appliction",
   "main": "index.js",
   "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop --open",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
     "test": "echo \"Error: no test specified\" && exit 1",
     "check:js": "eslint \"./src/**\"",
     "check:types": "tsc",
@@ -26,8 +31,16 @@
   },
   "homepage": "https://github.com/daviddelusenet/cookbook#readme",
   "dependencies": {
+    "babel-plugin-styled-components": "^1.12.0",
+    "gatsby": "^2.29.3",
+    "gatsby-plugin-layout": "^1.7.0",
+    "gatsby-plugin-manifest": "^2.9.1",
+    "gatsby-plugin-react-helmet": "^3.7.0",
+    "gatsby-plugin-react-svg": "^3.0.0",
+    "gatsby-plugin-styled-components": "^3.7.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-helmet": "^6.1.0",
     "styled-components": "^5.2.1"
   },
   "devDependencies": {
