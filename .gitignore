@@ -1,0 +1,10 @@
+.cache
+.DS_Store
+.idea
+.vscode
+
+# Modules
+node_modules
+
+# Distribution files
+public
