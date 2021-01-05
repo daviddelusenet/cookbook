@@ -1,0 +1,30 @@
+{
+  "name": "cookbook",
+  "version": "1.0.0",
+  "description": "Personal cookbook appliction",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daviddelusenet/cookbook.git"
+  },
+  "keywords": [
+    "Cookbook",
+    "React",
+    "Gatsby",
+    "AWS"
+  ],
+  "author": "David de Lusenet",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/daviddelusenet/cookbook/issues"
+  },
+  "homepage": "https://github.com/daviddelusenet/cookbook#readme",
+  "dependencies": {
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "styled-components": "^5.2.1"
+  }
+}
