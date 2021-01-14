@@ -3,7 +3,7 @@ import React, { FunctionComponent } from 'react'
 const PageHome: FunctionComponent = () => (
   <>
     <h1>Home</h1>
-    <p>amazing</p>
+    <p>So amazing it hurts</p>
   </>
 )
 
