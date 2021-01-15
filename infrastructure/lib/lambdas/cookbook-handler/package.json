@@ -1,0 +1,21 @@
+{
+  "name": "lambda-recipe-handler",
+  "version": "1.0.0",
+  "description": "A Lambda function which handles recipes",
+  "main": "recipe-handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Lambda"
+  ],
+  "author": "David de Lusenet",
+  "license": "MIT",
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.3.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@types/uuid": "^8.3.0"
+  }
+}
